@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Tomato Basil Pasta",
+    "ingredients": ["pasta", "tomato", "basil", "olive oil", "garlic", "salt", "black pepper"],
+    "instructions": "Cook pasta. Sauté garlic in olive oil, add chopped tomatoes, simmer. Toss with pasta and torn basil. Season to taste.",
+    "image_url": "https://images.unsplash.com/photo-1523986371872-9d3ba2e2f642?auto=format&fit=crop&w=800&q=60",
+    "tags": ["vegetarian", "quick"],
+    "cuisine": "italian"
+  },
+  {
+    "id": 2,
+    "title": "Chicken Stir-Fry",
+    "ingredients": ["chicken", "soy sauce", "garlic", "ginger", "bell pepper", "onion", "vegetable oil", "salt"],
+    "instructions": "Stir-fry sliced chicken in oil. Add garlic and ginger, then sliced bell pepper and onion. Splash soy sauce, cook until crisp-tender.",
+    "image_url": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=60",
+    "tags": ["high protein", "asian"],
+    "cuisine": "chinese"
+  },
+  {
+    "id": 3,
+    "title": "Veggie Omelette",
+    "ingredients": ["egg", "onion", "tomato", "spinach", "butter", "salt", "pepper"],
+    "instructions": "Beat eggs, season. Sauté vegetables in butter, add eggs, cook until set.",
+    "image_url": "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=800&q=60",
+    "tags": ["breakfast"],
+    "cuisine": "american"
+  }
+]
