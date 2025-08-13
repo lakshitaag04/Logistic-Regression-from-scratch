@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PantryChef — Recipe Suggestions</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="container">
+      <h1>PantryChef</h1>
+      <p>Type ingredients you have. Get recipes you can make.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <div class="input-area">
+        <div id="ingredient-input" class="chips-input" aria-label="Add ingredients">
+          <input id="ingredient-text" type="text" placeholder="e.g., tomato, onion, chicken, pasta" autocomplete="off" />
+          <button id="add-btn" class="btn" title="Add">Add</button>
+        </div>
+        <div id="suggestions" class="suggestions" hidden></div>
+      </div>
+
+      <div class="controls">
+        <label>
+          Max missing ingredients:
+          <input id="max-missing" type="number" min="0" max="10" value="3" />
+        </label>
+        <label>
+          Results:
+          <input id="top-k" type="number" min="1" max="50" value="20" />
+        </label>
+        <button id="find-btn" class="btn primary">Find recipes</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <div id="results"></div>
+    </section>
+  </main>
+
+  <footer class="container muted">
+    <small>Dataset: <span id="dataset-info">loading…</span></small>
+  </footer>
+
+  <script src="/app.js" type="module"></script>
+</body>
+</html>
